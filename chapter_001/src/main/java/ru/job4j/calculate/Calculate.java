@@ -11,7 +11,7 @@ public class Calculate {
 	
 	/**
 	*Method main
-	*@return print string Hello world!
+	*@param args - args массив объектов
 	*/
 	
 	
