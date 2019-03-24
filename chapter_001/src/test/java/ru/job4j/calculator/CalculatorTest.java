@@ -17,10 +17,10 @@ public class CalculatorTest {
 	 */
 
 	@Test
-	public void whenAddOnePlusOneThenTwo(){
+	public void whenAddOnePlusOneThenTwo() {
 	Calculator calc = new Calculator();
-	double result = calc.add(1D,1D);
-	double expected = 2D;
+	double result = calc.add(1, 1);
+	double expected = 2;
 	assertThat(result, is(expected));
 	}
     /**
@@ -28,10 +28,10 @@ public class CalculatorTest {
      */
 
     @Test
-    public void whenSubtractOneMinusOneThenTwo(){
+    public void whenSubtractOneMinusOneThenTwo() {
         Calculator calc = new Calculator();
-        double result = calc.subtract(1D,1D);
-        double expected = 2D;
+        double result = calc.subtract(1, 1);
+        double expected = 0;
         assertThat(result, is(expected));
     }
     /**
@@ -39,10 +39,10 @@ public class CalculatorTest {
      */
 
     @Test
-    public void whenDivOneShareOneThenTwo(){
+    public void whenDivOneShareOneThenTwo() {
         Calculator calc = new Calculator();
-        double result = calc.div(1D,1D);
-        double expected = 2D;
+        double result = calc.div(1, 1);
+        double expected = 1;
         assertThat(result, is(expected));
     }
     /**
@@ -50,10 +50,10 @@ public class CalculatorTest {
      */
 
     @Test
-    public void whenMultipleOneIncreaseOneThenTwo(){
+    public void whenMultipleOneIncreaseOneThenTwo() {
         Calculator calc = new Calculator();
-        double result = calc.multiple(1D,1D);
-        double expected = 2D;
+        double result = calc.multiple(1, 1);
+        double expected = 1;
         assertThat(result, is(expected));
     }
 }
