@@ -16,21 +16,21 @@ public class MaxTest {
     @Test
     public void whenFirstMax() {
         Max max = new Max();
-        int result = max.firstMax(4, 2);
-        assertThat(result, is(1));
+        int result = max.max(2, 1);
+        assertThat(result, is(2));
     }
 
     @Test
     public void secondMax() {
         Max max = new Max();
-        int result = max.secondMax(1, 6);
-        assertThat(result, is(1));
+        int result = max.max(1, 2);
+        assertThat(result, is(2));
     }
 
     @Test
     public void equalsFS() {
         Max max = new Max();
-        int result = max.equalsFS(1, 6);
-        assertThat(result, is(0));
+        int result = max.max(1, 1);
+        assertThat(result, is(1));
     }
 }
