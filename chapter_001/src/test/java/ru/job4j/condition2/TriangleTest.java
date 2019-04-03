@@ -10,6 +10,10 @@ import static org.junit.Assert.*;
 
 
 public class TriangleTest {
+    /**
+     * Test.
+     * Method area.
+     */
     @Test
     public void whenAreaSetThreePointsThenTriangleArea() {
         // Создаем объект треугольник.

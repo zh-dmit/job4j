@@ -5,7 +5,19 @@ import org.junit.Test;
 import static org.hamcrest.core.Is.is;
 import static org.junit.Assert.assertThat;
 
+/**
+ * Test.
+ *
+ * @author Evgeny
+ * @version 1.1
+ * @since 03.04.19
+ */
+
 public class MaxTest {
+    /**
+     * Test max.
+     */
+
     @Test
     public void whenMax1To2Then2() {
         Max max = new Max();
