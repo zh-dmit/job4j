@@ -1,9 +1,9 @@
 /**
  * Package for Counter.
- * 
+ *
  * @autor Evgeny.
- * @version 1.1
- * @since 04.04.19
+ * @version 1.2
+ * @since 08.04.19
  */
 
-package ru.job4j.looop;
+package ru.job4j.loop;
