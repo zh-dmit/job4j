@@ -10,9 +10,9 @@ public class MultiMax {
      * Метод вычисления наибольшего из трех.
      * Method max.
      *
-     * @param first
-     * @param second
-     * @param third
+     * @param first first
+     * @param second second
+     * @param third third
      * @return result Max of First or Second or Third.
      */
     public int max(int first, int second, int third) {

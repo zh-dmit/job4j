@@ -12,8 +12,8 @@ public class Max {
     /**
      * Method max.
      *
-     * @param first
-     * @param second
+     * @param first first
+     * @param second second
      * @return first > second ? first : second.
      */
 

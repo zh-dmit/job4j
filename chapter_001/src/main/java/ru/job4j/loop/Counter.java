@@ -7,6 +7,7 @@ package ru.job4j.loop;
  * @autor Evgeny.
  * @since 04.04.19
  */
+@SuppressWarnings("JavaDoc")
 public class Counter {
     /**
      * Метод add
@@ -18,7 +19,7 @@ public class Counter {
     public int add(int start, int finish) {
         int sum = 0;
         for (; start <= finish; start++) {
-            sum = (start % 2 == 0) ? (sum + start) : (sum + 0);
+            sum = (start % 2 == 0) ? (sum + start) : (sum);
         }
         return sum;
     }
