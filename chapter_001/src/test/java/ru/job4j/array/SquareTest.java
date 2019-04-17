@@ -20,7 +20,7 @@ public class SquareTest {
         int bound = 3;
         Square sqr = new Square();
         int[] result = sqr.calculate(bound);
-        int[] expect = new int[]{1, 4, 9};
+        int[] expect = {1, 4, 9};
         assertThat(result, is(expect));
     }
 
