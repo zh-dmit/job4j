@@ -5,7 +5,20 @@ import org.junit.Test;
 import static org.hamcrest.core.Is.is;
 import static org.junit.Assert.assertThat;
 
+/**
+ * Test for Turn class.
+ *
+ * @author Evgeny.
+ * @version 1.1
+ * @since 21.04.19
+ */
+
+
 public class TurnTest {
+    /**
+     * Test for method back.
+     */
+
     @Test
     public void whenTurnArrayWithEvenAmountOfElementsThenTurnedArray() {
         Turn turn = new Turn();
