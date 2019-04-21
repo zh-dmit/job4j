@@ -35,4 +35,13 @@ public class FindLoopTest {
         int expected = 4;
         assertThat(result, is(expected));
     }
+
+    @Test
+    public void whenArrayHas3ThenNAN() {
+        FindLoop fin = new FindLoop();
+        int[] input = {6, 4, 7};
+        int result = fin.indexOf(input, 3);
+        int expected = 0;
+        assertThat(result, is(expected));
+    }
 }
