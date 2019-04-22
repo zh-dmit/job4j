@@ -2,7 +2,7 @@
 * Package for ArrayTest task.
 * 
 * @author Evgeny.
-* @version 1.3
-* @since 21.04.19
+* @version 1.4
+* @since 22.04.19
 */
 package ru.job4j.array;
