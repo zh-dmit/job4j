@@ -4,7 +4,7 @@ package ru.job4j.array;
  * Class Check проверяет одинаковое значение элементов массива.
  *
  * @author Evgeny.
- * @version 1.1
+ * @version 1.2
  * @since 22.04.19
  */
 public class Check {
@@ -15,20 +15,14 @@ public class Check {
      * @return истина или лож.
      */
     public boolean mono(boolean[] data) {
-        int indexF = 0, indexT = 0;
-        boolean result = false;
-        for (int i = 0; i < data.length; i++) {
-            if (data[i] == false) {
-                indexF++;
-            } else if (data[i] == true) {
-                indexT++;
+        boolean result = true;
+        for (int i = 0; i < data.length - 1; i++) {
+            if (data[1] != data[i]) {
+                result = false;
+                break;
             }
         }
-        if (indexF == data.length) {
-            result = true;
-        } else if (indexT == data.length) {
-            result = true;
-        }
+
         return result;
     }
 }
