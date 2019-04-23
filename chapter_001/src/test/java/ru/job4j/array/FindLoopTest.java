@@ -9,7 +9,7 @@ import static org.junit.Assert.assertThat;
  * Class FindLoopTest
  *
  * @author Evgeny.
- * @version 1.1
+ * @version 1.3
  * @since 17.04.19
  */
 
@@ -41,7 +41,7 @@ public class FindLoopTest {
         FindLoop fin = new FindLoop();
         int[] input = {6, 4, 7};
         int result = fin.indexOf(input, 3);
-        int expected = 0;
+        int expected = -1;
         assertThat(result, is(expected));
     }
 }

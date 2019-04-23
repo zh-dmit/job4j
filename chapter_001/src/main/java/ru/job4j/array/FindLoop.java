@@ -4,7 +4,7 @@ package ru.job4j.array;
  * Class FindLoop находит число в массиве и возвращает его элемент.
  *
  * @author Evgeny.
- * @version 1.1.
+ * @version 1.3
  * @since 17.04.19
  */
 
@@ -17,7 +17,7 @@ public class FindLoop {
      * @return индекс элемента в массиве.
      */
     public int indexOf(int[] data, int el) {
-        int result = 0;
+        int result = -1;
         for (int index = 0; index < data.length; index++) {
             if (data[index] == el) {
                 result = index;
