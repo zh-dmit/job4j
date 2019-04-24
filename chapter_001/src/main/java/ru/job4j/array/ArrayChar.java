@@ -6,6 +6,7 @@ package ru.job4j.array;
  * @since 23.04.19
  */
 
+@SuppressWarnings("CanBeFinal")
 public class ArrayChar {
     private char[] data;
 
